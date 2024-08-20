@@ -297,3 +297,4 @@ git branch bingo
 git checkout bingo
 git push origin bingo
 touch fortune.sh
+chmod +x fortune.sh
