@@ -296,3 +296,44 @@ git push origin main
 git branch bingo
 git checkout bingo
 git push origin bingo
+touch fortune.sh
+chmod +x fortune.sh
+./fortune.sh
+ARR=("a" "b" "c")
+echo ${ARR[1]}
+echo $@
+echo $*
+echo ${ARR[*]}
+declare -p
+declare -p ARR
+./fortune.sh
+help
+help function
+./fortune.sh
+./fortune.sh
+help
+help until
+./fortune.sh
+help ?
+help [[
+[[ hello == hello ]]
+[[ hello == world ]]
+[[ hello =~ world ]]
+[[ hello =~ el ]]
+__vsc_prompt_cmd_original
+[[ "hello world" =~ "lo wor" ]]
+[[ "hello world" =~ ^h ]]
+[[ "hello world" =~ ^h.+d$ ]]
+VAR='hello world'
+echo $VAR
+[[ $VAR == 'hello world' ]]
+[[ $VAR == \?$ ]]
+[[ $VAR =~ \?$ ]]
+[[ test? =~ \?$ ]]
+./fortune.sh
+./fortune.sh
+./fortune.sh
+git remote add new-4 https://github.com/modisoham/learn-bash-scripting-by-building-five-programs.git
+git branch fortune
+git checkout fortune
+git push origin fortune

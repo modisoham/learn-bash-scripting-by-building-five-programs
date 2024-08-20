@@ -19,10 +19,11 @@ GET_FORTUNE() {
   read QUESTION
 }
 
+GET_FORTUNE
+
 until [[ $QUESTION =~ \?$ ]]
 do
-  GET_FORTUNE
+  GET_FORTUNE again
 done
 
-echo ${RESPONSES[$N]}
-GET_FORTUNE again
+echo -e "\n${RESPONSES[$N]}"
