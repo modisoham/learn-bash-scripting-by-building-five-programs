@@ -19,5 +19,4 @@ do
   GET_FORTUNE
 done
 
-
 echo ${RESPONSES[$N]}
