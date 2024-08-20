@@ -299,3 +299,4 @@ git push origin bingo
 touch fortune.sh
 chmod +x fortune.sh
 ./fortune.sh
+ARR=("a" "b" "c")
