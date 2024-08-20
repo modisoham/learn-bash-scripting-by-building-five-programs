@@ -206,3 +206,93 @@ sleep 3
 help while
 pwd
 ./countdown.sh 5
+touch bingo.sh
+chmod +x bingo.sh
+./bingo.sh
+__vsc_prompt_cmd_original
+printenv
+echo LANG
+echo $LANG
+declare -p
+echo $RANDOM
+./bingo.sh
+__vsc_prompt_cmd_original
+./b
+__vsc_prompt_cmd_original
+./bingo.sh
+__vsc_prompt_cmd_original
+./bingo.sh
+__vsc_prompt_cmd_original
+./bingo.sh
+I=0
+echo $I
+I++
+(( I++ ))
+echo $I
+help let
+(( I += 10 ))
+echo $I
+$(( I + 4 ))
+echo $(( I + 4 ))
+echo $I
+J=0
+echo $(( I - 6 ))
+J=$(( I - 6 ))
+echo J
+echo $J
+echo $(( J bingo.sh countdown.sh questionnaire.sh 5 + 25 ))
+echo $J
+declare -p
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+__vsc_regex_environment="^CYGWIN*|MINGW*|MSYS*"
+[[ "$(uname -s)" =~ $__vsc_regex_environment ]]
+__vsc_is_windows=0
+__vsc_regex_histcontrol=".*(erasedups|ignoreboth|ignoredups).*"
+[[ "$HISTCONTROL" =~ $__vsc_regex_histcontrol ]]
+__vsc_history_verify=1
+builtin unset __vsc_regex_environment
+builtin unset __vsc_regex_histcontrol
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+__vsc_stable="$VSCODE_STABLE"
+unset VSCODE_STABLE
+[ "$__vsc_stable" = "0" ]
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+declare -p J
+declare -p RANDOM
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+echo RANDOM % 75
+$
+echo $(( RANDOM % 75 ))
+echo $(( RANDOM % 75 + 1 ))
+./bingo.sh
+./bingo.sh
+help let
+./bingo.sh
+./bingo.sh
+./b
+./bingo.sh
+./bingo.sh
+git remote add https://github.com/modisoham/learn-bash-scripting-by-building-five-programs.git
+git remote add new https://github.com/modisoham/learn-bash-scripting-by-building-five-programs.git
+git push origin main
+git branch bingo
+git checkout bingo
+git push origin bingo
