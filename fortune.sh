@@ -10,7 +10,10 @@ echo ${RESPONSES[5]}
 N=$(( RANDOM % 6 ))
 
 GET_FORTUNE() {
-  echo Ask a yes or no question: 
+  if [[ ! $1 ]]
+  then
+    echo Ask a yes or no question: 
+  fi
   read QUESTION
 }
 
