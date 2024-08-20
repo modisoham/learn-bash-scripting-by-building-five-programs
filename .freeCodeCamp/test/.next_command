@@ -316,3 +316,4 @@ help until
 ./fortune.sh
 help ?
 help [[
+[[ hello == hello ]]
