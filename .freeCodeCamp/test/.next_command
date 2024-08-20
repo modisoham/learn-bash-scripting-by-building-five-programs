@@ -333,3 +333,7 @@ echo $VAR
 ./fortune.sh
 ./fortune.sh
 ./fortune.sh
+git remote add new-4 https://github.com/modisoham/learn-bash-scripting-by-building-five-programs.git
+git branch fortune
+git checkout fortune
+git push origin fortune
