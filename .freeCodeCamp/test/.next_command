@@ -317,3 +317,4 @@ help until
 help ?
 help [[
 [[ hello == hello ]]
+[[ hello == world ]]
